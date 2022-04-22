@@ -1,29 +1,46 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <title>Queeste der vriendscap</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+<head>
+  <title>Queeste der vriendscap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/countdown.theme.default.css" />
+
+  <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-      <ul class="slideshow">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-        <div class="container">
-          <div class="inner">
-            <h1>🎉 Queeste der vriendscap 🎉</h1>
-            <h3>27/01 - 29/01</h3>
-        </header>
-      </div>
+  <ul class="slideshow">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <div class="container">
+    <div class="inner">
+      <h1>🎉 Queeste der vriendscap 🎉</h1>
+      <h3>27/01 - 29/01</h3>
+      <div class="countdown"></div>
+    </div>
+  </div>
+  <script src="js/countdown.min.js"></script>
+  <script>
+       let myElement = document.querySelector('.countdown');
+        simplyCountdown(myElement, {
+          year: 2023,
+          month: 1, 
+          day: 27, 
+        });
+  </script>
 </body>
+
 </html>

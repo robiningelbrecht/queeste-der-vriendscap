@@ -121,6 +121,17 @@ a {
 	text-align: center;
 }
 
+.container .inner .countdown{
+	display: flex;
+    justify-content: space-evenly;
+	margin-top: 25px;
+}
+
+.container .inner .countdown .simply-amount{
+	margin-right: 3px;
+	font-weight: bold;
+}
+
 .slideshow,
 .slideshow:after {
 	position: fixed;
