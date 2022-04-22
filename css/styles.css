@@ -150,19 +150,19 @@ a {
 	opacity: 0;
 	z-index: 0;
 	-webkit-backface-visibility: hidden;
-	-webkit-animation: imageAnimation 36s linear infinite 0s;
-	-moz-animation: imageAnimation 36s linear infinite 0s;
-	-o-animation: imageAnimation 36s linear infinite 0s;
-	-ms-animation: imageAnimation 36s linear infinite 0s;
-	animation: imageAnimation 36s linear infinite 0s;
+	-webkit-animation: imageAnimation 42s linear infinite 0s;
+	-moz-animation: imageAnimation 42s linear infinite 0s;
+	-o-animation: imageAnimation 42s linear infinite 0s;
+	-ms-animation: imageAnimation 42s linear infinite 0s;
+	animation: imageAnimation 42s linear infinite 0s;
 }
 
 .slideshow li:nth-child(1) {
-	background-image: url(../images/slide-one.webp);
+	background-image: url(../images/slide-roaring-twenties-one.webp);
 }
 
 .slideshow li:nth-child(2) {
-	background-image: url(../images/slide-two.webp);
+	background-image: url(../images/slide-roaring-twenties-two.webp);
 	-webkit-animation-delay: 6s;
 	-moz-animation-delay: 6s;
 	-o-animation-delay: 6s;
@@ -171,7 +171,7 @@ a {
 }
 
 .slideshow li:nth-child(3) {
-	background-image: url(../images/slide-three.webp);
+	background-image: url(../images/slide-roaring-twenties-three.webp);
 	-webkit-animation-delay: 12s;
 	-moz-animation-delay: 12s;
 	-o-animation-delay: 12s;
@@ -180,7 +180,7 @@ a {
 }
 
 .slideshow li:nth-child(4) {
-	background-image: url(../images/slide-four.webp);
+	background-image: url(../images/slide-hippie.webp);
 	-webkit-animation-delay: 18s;
 	-moz-animation-delay: 18s;
 	-o-animation-delay: 18s;
@@ -189,7 +189,7 @@ a {
 }
 
 .slideshow li:nth-child(5) {
-	background-image: url(../images/slide-five.webp);
+	background-image: url(../images/slide-les-parisiens.webp);
 	-webkit-animation-delay: 24s;
 	-moz-animation-delay: 24s;
 	-o-animation-delay: 24s;
@@ -198,12 +198,21 @@ a {
 }
 
 .slideshow li:nth-child(6) {
-	background-image: url(../images/slide-six.webp);
+	background-image: url(../images/slide-chateau-de-rolley.webp);
 	-webkit-animation-delay: 30s;
 	-moz-animation-delay: 30s;
 	-o-animation-delay: 30s;
 	-ms-animation-delay: 30s;
 	animation-delay: 30s;
+}
+
+.slideshow li:nth-child(7) {
+	background-image: url(../images/slide-swanky-twenties.webp);
+	-webkit-animation-delay: 36s;
+	-moz-animation-delay: 36s;
+	-o-animation-delay: 36s;
+	-ms-animation-delay: 36s;
+	animation-delay: 36s;
 }
 
 /* Animation for the slideshow images */
