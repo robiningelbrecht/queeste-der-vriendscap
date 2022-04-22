@@ -93,10 +93,18 @@ h1{
     line-height: 1.3;
 }
 
+h3{
+	font-size: 1.17rem;
+}
+
 @media screen and (max-width: 736px){
 	h1 {
 		font-size: 1.3rem;
 		line-height: 1.4;
+	}
+
+	h3{
+		font-size: 1.1rem;
 	}
 }
 
