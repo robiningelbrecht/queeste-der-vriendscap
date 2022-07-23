@@ -1,27 +1,25 @@
 <!DOCTYPE HTML>
-<!--
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Highlights by HTML5 UP</title>
+		<title>Vlaemsche Kliete | Queest der Vriendscap</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+		integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+		crossorigin=""/>
 	</head>
 	<body class="is-preload">
-
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
-					<h1>Highlights</h1>
-					<p>A fun little { responsive } single pager by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h1>Vlaemsche Kliete</h1>
+					<p>Een zeer kort klein intro zinnetje te maken door [Tim]</p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
-						<li><a href="#one" class="button primary scrolly">Begin</a></li>
+						<li><a href="#one" class="goto-next scrolly">Begin</a></li>
 					</ul>
 				</div>
 			</section>
@@ -29,12 +27,12 @@
 		<!-- One -->
 			<section id="one" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="images/city-ghent.jpeg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>Who I am</h2>
+							<h2>Welgekomen in onzen herberghe (tijdelijk titeltje)</h2>
 						</header>
-						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+						<p><strong>Hier hebben we een vette intro tekst nodig [Tim]. Moet ook vermelden dat iedereen een persoonlijke uitnodiging krijgt</strong> Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
 				</div>
@@ -43,30 +41,13 @@
 		<!-- Two -->
 			<section id="two" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg-city.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>Stuff I do</h2>
+							<h2><span class="icon fa-compass"></span> Den lokatie vraagt u?</h2>
 						</header>
 						<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
-						<ul class="icons-grid">
-							<li>
-								<span class="icon solid major fa-camera-retro"></span>
-								<h3>Magna Etiam</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-pencil-alt"></span>
-								<h3>Lorem Ipsum</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-code"></span>
-								<h3>Nulla Tempus</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-coffee"></span>
-								<h3>Sed Feugiat</h3>
-							</li>
-						</ul>
+						<p> <div id="map"></div></p>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</div>
@@ -75,10 +56,10 @@
 		<!-- Three -->
 			<section id="three" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="images/train-station.jpeg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>One more thing</h2>
+							<h2>Wat op te berghen in uwen knapzak</h2>
 						</header>
 						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
@@ -87,7 +68,7 @@
 			</section>
 
 		<!-- Four -->
-		<!--
+	
 			<section id="four" class="main">
 				<div class="container">
 					<div class="content">
@@ -405,7 +386,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
-		-->
 
 		<!-- Footer -->
 			<section id="footer">
@@ -427,15 +407,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</form>
 				</div>
 				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
+						<li>&copy; Queeste der Vriendscap</li>
 					</ul>
 				</footer>
 			</section>
@@ -448,6 +421,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+			integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+			crossorigin=""></script>
 
+			<script>
+				var map = L.map('map').setView([51.0841, 3.6887], 10);
+				L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+								maxZoom: 19,
+								attribution: '© OpenStreetMap'
+							}).addTo(map);
+				//var marker = L.marker([lat, lng]).addTo(map);
+			</script>
 	</body>
 </html>
