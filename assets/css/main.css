@@ -1,6 +1,15 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
+@font-face {font-family: "Old English Text MT";
+	src: url("../webfonts/old-english.eot"); /* IE9*/
+	src: url("../webfonts/old-english.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("../webfonts/old-english.woff2") format("woff2"), /* chrome、firefox */
+	url("../webfonts/old-english.woff") format("woff"), /* chrome、firefox */
+	url("../webfonts/old-english.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("../webfonts/old-english.svg#Old English Text MT") format("svg"); /* iOS 4.1- */
+  }
+
 /*
 	Highlights by HTML5 UP
 	html5up.net | @ajlkn
